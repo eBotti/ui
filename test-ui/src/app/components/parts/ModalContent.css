@@ -1,0 +1,38 @@
+.fromToContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calResultText {
+  font-weight: bold;
+}
+
+.availableText {
+  color: "#677586";
+}
+
+.quickSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  /* margin-top: 10px; */
+}
+
+.quickButton {
+  margin-left: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 3px;
+}
+
+.quickSelectText {
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+}

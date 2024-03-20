@@ -1,0 +1,39 @@
+.headWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.addBfr {
+  display: flex;
+  height: 100%;
+  margin-right: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  line-height: 40px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
